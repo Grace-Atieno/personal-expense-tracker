@@ -1,0 +1,257 @@
+{
+  "users": [
+    {
+      "id": "demo-user",
+      "name": "Demo User",
+      "email": "demo@tracker.com",
+      "passwordHash": "$2b$10$uL2q3fSx/z3lIpMVJWO1aOwmom4lg5WNR.REx4V2tp2uYSLvPRKw.",
+      "createdAt": "2026-11-01T11:26:11.310Z",
+      "updatedAt": "2026-11-01T11:26:11.313Z"
+    }
+  ],
+  "accounts": [
+    {
+      "id": "acct-cash",
+      "userId": "demo-user",
+      "name": "Cash",
+      "type": "cash",
+      "balance": 18400,
+      "currency": "KES",
+      "createdAt": "2026-11-01T11:26:11.313Z",
+      "updatedAt": "2026-11-01T11:26:11.313Z"
+    },
+    {
+      "id": "acct-bank",
+      "userId": "demo-user",
+      "name": "Bank Account",
+      "type": "bank",
+      "balance": 97000,
+      "currency": "KES",
+      "createdAt": "2026-11-01T11:26:11.313Z",
+      "updatedAt": "2026-11-01T11:26:11.313Z"
+    },
+    {
+      "id": "acct-savings",
+      "userId": "demo-user",
+      "name": "Savings",
+      "type": "savings",
+      "balance": 65000,
+      "currency": "KES",
+      "createdAt": "2026-11-01T11:26:11.313Z",
+      "updatedAt": "2026-11-01T11:26:11.313Z"
+    }
+  ],
+  "categories": [
+    {
+      "id": "cat-food",
+      "userId": "demo-user",
+      "name": "Food",
+      "type": "expense",
+      "color": "#f97316",
+      "icon": "🍽️",
+      "createdAt": "2026-11-01T11:26:11.313Z",
+      "updatedAt": "2026-11-01T11:26:11.313Z"
+    },
+    {
+      "id": "cat-transport",
+      "userId": "demo-user",
+      "name": "Transport",
+      "type": "expense",
+      "color": "#0ea5e9",
+      "icon": "🚍",
+      "createdAt": "2026-11-01T11:26:11.313Z",
+      "updatedAt": "2026-11-01T11:26:11.313Z"
+    },
+    {
+      "id": "cat-rent",
+      "userId": "demo-user",
+      "name": "Rent",
+      "type": "expense",
+      "color": "#8b5cf6",
+      "icon": "🏠",
+      "createdAt": "2026-11-01T11:26:11.313Z",
+      "updatedAt": "2026-11-01T11:26:11.313Z"
+    },
+    {
+      "id": "cat-shopping",
+      "userId": "demo-user",
+      "name": "Shopping",
+      "type": "expense",
+      "color": "#ec4899",
+      "icon": "🛍️",
+      "createdAt": "2026-11-01T11:26:11.313Z",
+      "updatedAt": "2026-11-01T11:26:11.313Z"
+    },
+    {
+      "id": "cat-salary",
+      "userId": "demo-user",
+      "name": "Salary",
+      "type": "income",
+      "color": "#22c55e",
+      "icon": "💰",
+      "createdAt": "2026-11-01T11:26:11.313Z",
+      "updatedAt": "2026-11-01T11:26:11.313Z"
+    },
+    {
+      "id": "cat-freelance",
+      "userId": "demo-user",
+      "name": "Freelancing",
+      "type": "income",
+      "color": "#14b8a6",
+      "icon": "🧩",
+      "createdAt": "2026-11-01T11:26:11.313Z",
+      "updatedAt": "2026-11-01T11:26:11.313Z"
+    }
+  ],
+  "transactions": [
+    {
+      "id": "tx-1",
+      "userId": "demo-user",
+      "accountId": "acct-bank",
+      "categoryId": "cat-salary",
+      "title": "Monthly Salary",
+      "amount": 120000,
+      "type": "income",
+      "description": "Salary deposit",
+      "paymentMethod": "Bank Transfer",
+      "occurredAt": "2026-10-30T11:26:11.313Z",
+      "createdAt": "2026-11-01T11:26:11.313Z",
+      "updatedAt": "2026-11-01T11:26:11.313Z",
+      "relatedAccountId": null
+    },
+    {
+      "id": "tx-2",
+      "userId": "demo-user",
+      "accountId": "acct-bank",
+      "categoryId": "cat-food",
+      "title": "Groceries",
+      "amount": 6500,
+      "type": "expense",
+      "description": "Weekly groceries",
+      "paymentMethod": "Card",
+      "occurredAt": "2026-10-27T11:26:11.313Z",
+      "createdAt": "2026-11-01T11:26:11.313Z",
+      "updatedAt": "2026-11-01T11:26:11.313Z",
+      "relatedAccountId": null
+    },
+    {
+      "id": "tx-3",
+      "userId": "demo-user",
+      "accountId": "acct-bank",
+      "categoryId": "cat-transport",
+      "title": "Fuel",
+      "amount": 3200,
+      "type": "expense",
+      "description": "Fuel refill",
+      "paymentMethod": "Cash",
+      "occurredAt": "2026-10-23T11:26:11.313Z",
+      "createdAt": "2026-11-01T11:26:11.313Z",
+      "updatedAt": "2026-11-01T11:26:11.313Z",
+      "relatedAccountId": null
+    },
+    {
+      "id": "tx-4",
+      "userId": "demo-user",
+      "accountId": "acct-cash",
+      "categoryId": "cat-freelance",
+      "title": "Freelance Payment",
+      "amount": 24000,
+      "type": "income",
+      "description": "Design project payment",
+      "paymentMethod": "Cash",
+      "occurredAt": "2026-10-20T11:26:11.313Z",
+      "createdAt": "2026-11-01T11:26:11.313Z",
+      "updatedAt": "2026-11-01T11:26:11.313Z",
+      "relatedAccountId": null
+    },
+    {
+      "id": "tx-5",
+      "userId": "demo-user",
+      "accountId": "acct-bank",
+      "categoryId": "cat-rent",
+      "title": "Rent",
+      "amount": 35000,
+      "type": "expense",
+      "description": "Apartment rent",
+      "paymentMethod": "Bank Transfer",
+      "occurredAt": "2026-10-17T11:26:11.313Z",
+      "createdAt": "2026-11-01T11:26:11.313Z",
+      "updatedAt": "2026-11-01T11:26:11.313Z",
+      "relatedAccountId": null
+    }
+  ],
+  "budgets": [
+    {
+      "id": "budget-food",
+      "userId": "demo-user",
+      "categoryId": "cat-food",
+      "name": "Food Budget",
+      "limit": 8000,
+      "month": "2026-11",
+      "createdAt": "2026-11-01T11:26:11.313Z",
+      "updatedAt": "2026-11-01T11:26:11.313Z"
+    },
+    {
+      "id": "budget-transport",
+      "userId": "demo-user",
+      "categoryId": "cat-transport",
+      "name": "Transport Budget",
+      "limit": 5000,
+      "month": "2026-11",
+      "createdAt": "2026-11-01T11:26:11.313Z",
+      "updatedAt": "2026-11-01T11:26:11.313Z"
+    },
+    {
+      "id": "budget-rent",
+      "userId": "demo-user",
+      "categoryId": "cat-rent",
+      "name": "Rent Budget",
+      "limit": 35000,
+      "month": "2026-11",
+      "createdAt": "2026-11-01T11:26:11.313Z",
+      "updatedAt": "2026-11-01T11:26:11.313Z"
+    }
+  ],
+  "savingsGoals": [
+    {
+      "id": "goal-emergency",
+      "userId": "demo-user",
+      "name": "Emergency Fund",
+      "targetAmount": 250000,
+      "currentAmount": 120000,
+      "targetDate": "2027-12-31",
+      "description": "Emergency cushion",
+      "createdAt": "2026-11-01T11:26:11.313Z",
+      "updatedAt": "2026-11-01T11:26:11.313Z"
+    },
+    {
+      "id": "goal-laptop",
+      "userId": "demo-user",
+      "name": "Laptop Fund",
+      "targetAmount": 120000,
+      "currentAmount": 60000,
+      "targetDate": "2027-02-28",
+      "description": "Upgrade laptop",
+      "createdAt": "2026-11-01T11:26:11.313Z",
+      "updatedAt": "2026-11-01T11:26:11.314Z"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "n-1",
+      "userId": "demo-user",
+      "title": "Budget alert",
+      "message": "Food budget is at 80% utilization",
+      "read": false,
+      "createdAt": "2026-11-01T11:26:11.314Z"
+    },
+    {
+      "id": "n-2",
+      "userId": "demo-user",
+      "title": "Savings milestone",
+      "message": "Emergency fund reached 48% of target",
+      "read": false,
+      "createdAt": "2026-11-01T11:26:11.314Z"
+    }
+  ]
+}
